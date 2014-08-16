@@ -4,8 +4,8 @@
 > used to [datamosh](http://knowyourmeme.com/memes/datamoshing "Datamoshing")
 > two video sequences to purposely create encoding artifacts.
 
-## **This software is in alpha state and no where near production ready. Try it out but
-all the usual caveats apply. Use at your own risk etc.**
+> **This software is in alpha state and no where near production ready. **
+> ** Try it out but all the usual caveats apply. Use at your own risk etc.**
 
 
 

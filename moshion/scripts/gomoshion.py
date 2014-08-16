@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 """
- python-moshion - Datamoshing motion
+ python-moshion - Datamoshing Motion
  (c) 2014 Robert Moggach, Fabio Piparo and contributors
  Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 
@@ -88,7 +88,7 @@ def interactive():
 def main():
   usage = "usage: %prog --start 1 --end 10 --inseq /my/great/sequence.%04d.jpg --moshseq /my/great/tex.%04d.jpg --moshstart 1 --outdir /my/great/moshion_output"
   version=__import__('moshion').get_version()
-  description="moshion v%s - Datamoshing motion" % version
+  description="moshion v%s - Datamoshing Motion" % version
   parser = OptionParser(usage=usage, version=version, description=description)
 
   parser.add_option("-s", "--start",       dest="start",       help="first frame of input sequence")

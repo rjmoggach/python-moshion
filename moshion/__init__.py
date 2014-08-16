@@ -1,5 +1,5 @@
 """
- python-moshion - Datamoshing motion
+ python-moshion - Datamoshing Motion
  (c) 2014 Robert Moggach, Fabio Piparo and contributors
  Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 
