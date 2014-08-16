@@ -116,11 +116,6 @@ def main():
     moshion = Moshion(**moshion_options)
     moshion.do_full_mosh()
   else:
-    if options.start > options.end:
-      if IS_TTY: print hilite("ERROR: end frame should be greater than start frame!", 1)
-      parser.print_help()
-      sys.exit(1)
-  
     if None in [options.start, options.end, options.inseq, options.moshseq, options.moshstart, options.outdir]:
       parser.print_help()
       sys.exit(1)
