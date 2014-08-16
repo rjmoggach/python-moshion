@@ -4,9 +4,10 @@
 > used to [datamosh](http://knowyourmeme.com/memes/datamoshing "Datamoshing")
 > two video sequences to purposely create encoding artifacts.
 
-**This software is in alpha state and no where near production ready. **
 
-** Try it out but all the usual caveats apply. Use at your own risk etc.**
+**This software is in alpha state and no where near production ready.**
+
+**Try it out but all the usual caveats apply. Use at your own risk etc.**
 
 
 
@@ -71,7 +72,9 @@ Patience. Tests are important and will be implemented.
 
 ## Documentation
 
-### Installation
+This is admittedly sparse but will get better. For now:
+
+#### Installation
 
 We don't have any installer at the moment so you kinda need to know what you're doing.
 
@@ -79,7 +82,7 @@ We don't have any installer at the moment so you kinda need to know what you're 
 
     git clone https://github.com/mogga/python-moshion.git
 
-### Command Line Tool
+#### Command Line Tool
 
 From within the repo run the included command line script to get a feel for it.
 
