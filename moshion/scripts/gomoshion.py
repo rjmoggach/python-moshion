@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 """
  python-moshion - Datamoshing Motion
@@ -62,10 +62,10 @@ def interactive():
   print "Enter the output directory path:\n\tEg. /my/great/output"
   outdir = raw_input("\toutput_path >  ")
 
-  bitrate = raw_input("Bitrate (5000) > ") or "5000"
+  bitrate = raw_input("Bitrate (8000) > ") or "8000"
   keyframe = raw_input("Keyframe (999) > ") or "999"
-  threshold = raw_input("Threshold (999) > ") or "100000000" 
-  interval = raw_input("Interval (15) > ") or "15" 
+  threshold = raw_input("Threshold (100000000) > ") or "100000000" 
+  interval = raw_input("Interval (9) > ") or "9" 
   uber = raw_input("Uber Moshion? (N) > ") or "N"
   if uber in ['Y','y','yes','YES','Yes']:
     uber = True
@@ -116,11 +116,6 @@ def main():
     moshion = Moshion(**moshion_options)
     moshion.do_full_mosh()
   else:
-    if options.start > options.end:
-      if IS_TTY: print hilite("ERROR: end frame should be greater than start frame!", 1)
-      parser.print_help()
-      sys.exit(1)
-  
     if None in [options.start, options.end, options.inseq, options.moshseq, options.moshstart, options.outdir]:
       parser.print_help()
       sys.exit(1)
@@ -138,10 +133,10 @@ def main():
       'uber': options.uber
     }
   
-    moshion_options['bitrate'] = options.bitrate if options.bitrate else "5000"
+    moshion_options['bitrate'] = options.bitrate if options.bitrate else "8000"
     moshion_options['keyframe'] = options.keyframe if options.keyframe else "999"
     moshion_options['threshold'] = options.threshold if options.threshold else "100000000"
-    moshion_options['interval'] = options.interval if options.interval else "15"
+    moshion_options['interval'] = options.interval if options.interval else "8"
     
     if options.avionly and options.writeseq:
       if IS_TTY: print hilite("ERROR: you can't use avionly and writeseq options together!",1)
