@@ -86,7 +86,7 @@ def interactive():
   }
 
 def main():
-  usage = "usage: %prog --start 1 --end 10 --inseq /my/great/sequence.%04d.jpg --moshseq /my/great/tex.%04d.jpg --moshstart 1 --outdir /my/great/moshion_output"
+  usage = "usage: \n\t%prog--start 1 --end 10 --i /my/great/sequence.%04d.jpg --m /my/great/tex.%04d.jpg -f 1 --o /my/great/moshion_output"
   version=__import__('moshion').get_version()
   description="moshion v%s - Datamoshing Motion" % version
   parser = OptionParser(usage=usage, version=version, description=description)
