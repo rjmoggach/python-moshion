@@ -52,4 +52,4 @@ def hilite(string, color=0):
 
 IS_TTY = sys.stdout.isatty()
 
-HR=hilite(("-"*64).join(["\n","\n"]),4)
+HR=hilite("-"*64,4).join(["\n","\n"])

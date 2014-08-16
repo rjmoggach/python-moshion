@@ -114,7 +114,7 @@ class Moshion():
     self.to_mosh=[]
     if not self.uber:
       msg = '\n\nCreating initial movie\n\n'
-      if IS_TTY: print hilite(msg,0)
+      if IS_TTY: print hilite(msg,7)
       for key, value in self.file_list_dict.iteritems():
         list_file = os.path.join(self.outdir, key)
         avi_filename = "{0}.avi".format(self.filebase)
@@ -124,8 +124,8 @@ class Moshion():
         return subprocess.call(self.get_encode_opts(list_file, avi), close_fds=True)
     else:
       msg = '\n\nCreating initial movies\n\n'
-      if IS_TTY: print hilite(msg,0)
-      print hilite(self.input_frame_list,1)
+      if IS_TTY: print hilite(msg,7)
+      print hilite(self.input_frame_list,30)
       file_list_name = 'frame_list.%04d.txt'
       for frame in self.input_frame_list:
         list_file = os.path.join(self.outdir, file_list_name % frame)
@@ -142,7 +142,7 @@ class Moshion():
       for avi_filename in self.to_mosh:
         moshed_avi_filename = avi_filename.replace('.avi','_moshed.avi')
         msg = '{0}Creating moshed movie:\n{1}{0}'.format(HR, moshed_avi_filename)
-        if IS_TTY: print hilite(msg,0)
+        if IS_TTY: print hilite(msg,15)
         input_avi = os.path.join(self.outdir, avi_filename)
         moshed_avi = os.path.join(self.outdir, moshed_avi_filename) 
         # by johannesgj
@@ -225,7 +225,7 @@ class Moshion():
       fcount = len(self.input_frame_list)
       for key, fname in enumerate(self.moshed):
         msg = '{0}Exporting {2} frame image sequence from {3}: {1}{0}'.format(HR, self.outseq, fcount, fname)
-        if IS_TTY: print hilite(msg,0)
+        if IS_TTY: print hilite(msg,11)
         avi = os.path.join(self.outdir, fname)
         subprocess.call(self.get_export_opts(seekto_str, fcount, avi), close_fds=True)
     else:
@@ -235,7 +235,7 @@ class Moshion():
         fname = uber_frame_list.pop(0)
         avi = os.path.join(self.outdir, fname)
         msg = '{0}Exporting {2} frame image sequence from {3}: {1}{0}'.format(HR, self.outseq, fcount, fname)
-        if IS_TTY: print hilite(msg,0)
+        if IS_TTY: print hilite(msg,11)
         subprocess.call(self.get_export_opts(seekto_str, fcount, avi), close_fds=True)
 
   def do_full_mosh(self):

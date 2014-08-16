@@ -23,50 +23,56 @@ from moshion.util import IS_TTY, HR, hilite
 def interactive():
   opts={}
   # INPUT SEQUENCE
-  print "Enter the input sequence path:\n\tEg. /my/great/sequence.%04d.jpg"
-  inseq_input = raw_input("\tinput_path >  ")
+  print hilite("\nEnter the input sequence path:",6)
+  print "\nEg. /my/great/sequence.%04d.jpg\n"
+  inseq_input = raw_input(hilite("input_path >  ",16))
   inseqs=sequence.glob(inseq_input.split('.')[0])
   if len(inseqs) > 1:
-    print "Pick a sequence:"
+    print hilite("\nPick a sequence:",6)
     for k,v in enumerate(inseqs):
       print "\t {0}) {1}".format(k+1, v)
-    inseq_input = raw_input("\tinput_seq > ") or 1
+    inseq_input = raw_input(hilite("input_seq (1) > ",16)) or 1
     inseq = inseqs[int(inseq_input)-1] 
   else:
     inseq = inseqs[0]
   inseq_path = inseq.__str__().split(' ')[0]
   inseq_start = inseq.__str__().split(' ')[1]
   inseq_end = inseq.__str__().split(' ')[2]
-  print "Enter first frame of input sequence:\n\tEg. 953"
-  start=raw_input("\tfirst_fr ({0}) >  ".format(inseq_start)) or inseq_start
-  print "Enter last frame of input sequence:\n\tEg. 1002"
-  end=raw_input("\tlast_fr ({0}) >  ".format(inseq_end)) or inseq_end
+  print hilite("\nEnter first frame of input sequence:",6)
+  print "\nEg. 953\n"
+  start=raw_input(hilite("first_fr ({0}) >  ".format(inseq_start),16)) or inseq_start
+  print hilite("\nEnter last frame of input sequence:",6)
+  print "\nEg. 1002\n"
+  end=raw_input(hilite("last_fr ({0}) >  ".format(inseq_end),16)) or inseq_end
   # MOSH SEQUENCE
-  print "Enter the moshtex sequence path:\n\tEg. /my/great/moshtex.%04d.jpg"
-  moshseq_input = raw_input("\tmoshtex_path >  ")
+  print hilite("\nEnter the moshtex sequence path:",6)
+  print "\nEg. /my/great/moshtex.%04d.jpg\n"
+  moshseq_input = raw_input(hilite("moshtex_path >  ", 16))
   moshseqs=sequence.glob(moshseq_input.split('.')[0])
   if len(moshseqs) > 1:
     print "Pick a sequence:"
     for k,v in enumerate(moshseqs):
-      print "\t {0}) {1}".format(k+1, v)
-    moshseq_input = raw_input("\tmoshtex_path > ") or 1
+      print " {0}) {1}".format(k+1, v)
+    moshseq_input = raw_input(hilite("moshtex_path > ",16)) or 1
     moshseq = moshseqs[int(moshseq_input)-1] 
   else:
     moshseq = moshseqs[0]
   moshseq_path = moshseq.__str__().split(' ')[0]
   moshseq_start = moshseq.__str__().split(' ')[1]
   moshseq_end = moshseq.__str__().split(' ')[2]
-  print "Enter the first frame of moshtex sequence:\n\tEg. 5"
-  moshfirst=raw_input("\tmoshtex_first_fr ({0}) >  ".format(moshseq_start)) or moshseq_start
+  print hilite("\nEnter the first frame of moshtex sequence:",6)
+  print "\nEg. 5\n"
+  moshfirst=raw_input(hilite("moshtex_first_fr ({0}) >  ".format(moshseq_start),16)) or moshseq_start
   # OUTPUT
-  print "Enter the output directory path:\n\tEg. /my/great/output"
-  outdir = raw_input("\toutput_path >  ")
+  print hilite("\nEnter the output directory path:",6)
+  print "\nEg. /my/great/output\n"
+  outdir = raw_input(hilite("output_path >  ",16))
 
-  bitrate = raw_input("Bitrate (8000) > ") or "8000"
-  keyframe = raw_input("Keyframe (999) > ") or "999"
-  threshold = raw_input("Threshold (100000000) > ") or "100000000" 
-  interval = raw_input("Interval (9) > ") or "9" 
-  uber = raw_input("Uber Moshion? (N) > ") or "N"
+  bitrate = raw_input(hilite("Bitrate (8000) > ",16)) or "8000"
+  keyframe = raw_input(hilite("Keyframe (999) > ",16)) or "999"
+  threshold = raw_input(hilite("Threshold (100000000) > ",16)) or "100000000" 
+  interval = raw_input(hilite("Interval (9) > ",16)) or "9" 
+  uber = raw_input(hilite("Uber Moshion? (N) > ",12)) or "N"
   if uber in ['Y','y','yes','YES','Yes']:
     uber = True
   else:
