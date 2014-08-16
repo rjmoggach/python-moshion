@@ -74,11 +74,31 @@ Patience. Tests are important and will be implemented.
 
 This is admittedly sparse but will get better. For now:
 
-#### Installation
+### Installation
 
 We don't have any installer at the moment so you kinda need to know what you're doing.
 
-1) Start by cloning the repo:
+#### Prerequisites
+
+Without question you need ffmpeg but there are a ton of other libraries you may need as well depending on what images, videos you want to use.
+
+Here are some links:
+
+##### Mac OSX
+
+Everyone loves homebrew. Getting it to install **ffmpeg** is not always easy.
+
+    brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-frei0r \
+    --with-libass --with-libass --with-libbluray --with-libcaca --with-libquvi \
+    --with-libvo-aacenc --with-libvorbis --with-libvpx --with-opencore-amr \
+    --with-openjpeg --with-openssl --with-opus --with-rtmpdump --with-schroedinger \
+    --with-speex --with-theora --with-tools --with-libmp3lame
+
+  * [static FFmpeg binaries for Mac OS X Intel 64bit](http://www.evermeet.cx/ffmpeg/)
+
+#### Clone the repo
+
+Start by cloning the repo:
 
     git clone https://github.com/mogga/python-moshion.git
 
@@ -89,7 +109,7 @@ From within the repo run the included command line script to get a feel for it.
     cd python-moshion
     ./gomoshion.py -s 1 -e 20 -f 5 --input `pwd`/tests/footage/input/input_ftg.%04d.jpg --mosh `pwd`/tests/footage/input/input_ftg.%04d.jpg -o `pwd`/tests/footage/output
 
-> or use the interactive mode...
+or use the interactive mode...
 
     ./gomoshion.py -q
     
@@ -107,7 +127,7 @@ The really great [Ruby AviGlitch](http://ucnv.github.io/aviglitch/) is great too
 
 For our tests we use a few bits from the [internet archive](https://archive.org/) specifically this clip: 
 
-* [InternetArchive35mmStockFootageSampleReel](https://archive.org/details/InternetArchive35mmStockFootageSampleReel)
+[InternetArchive35mmStockFootageSampleReel](https://archive.org/details/InternetArchive35mmStockFootageSampleReel)
 
 
 ## Links
