@@ -57,7 +57,7 @@ Check out the issues to see what we're focused on.
 
 First of all, you need to fork from the official repository...
 
-    > [Fork python-moshion](https://github.com/mogga/python-moshion/fork "Fork")
+[Fork python-moshion](https://github.com/mogga/python-moshion/fork "Fork")
 
 Now you can change whatever you want, commit, push to your fork and when 
 your contribution is done, follow the pull request link and explain what you did and why.
@@ -94,7 +94,9 @@ Everyone loves homebrew. Getting it to install **ffmpeg** is not always easy.
     --with-openjpeg --with-openssl --with-opus --with-rtmpdump --with-schroedinger \
     --with-speex --with-theora --with-tools --with-libmp3lame
 
-  * [static FFmpeg binaries for Mac OS X Intel 64bit](http://www.evermeet.cx/ffmpeg/)
+This is easier...
+
+[static FFmpeg binaries for Mac OS X Intel 64bit](http://www.evermeet.cx/ffmpeg/)
 
 #### Clone the repo
 
