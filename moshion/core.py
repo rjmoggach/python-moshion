@@ -3,10 +3,10 @@
  (c) 2014 Robert Moggach, Fabio Piparo and contributors
  Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 
- moshClassic.py
+ core.py
   
- moshion is a standalone tool and library used to datamosh
- two video sequences such that the motion of both clips is retained.
+ moshion is a command line interface to ffmpeg used to datamosh two
+ video sequences to purposely create encoding artifacts.
 
 """
 

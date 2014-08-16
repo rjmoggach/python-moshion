@@ -1,3 +1,15 @@
+"""
+ python-moshion - Datamoshing Motion
+ (c) 2014 Robert Moggach, Fabio Piparo and contributors
+ Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+
+ util.py
+  
+ moshion is a command line interface to ffmpeg used to datamosh two
+ video sequences to purposely create encoding artifacts.
+
+"""
+
 import sys
 
 
@@ -42,7 +54,6 @@ COLORS=[
 ]
 
 
-
 def hilite(string, color=0):
   '''hilite a string in TTY terminals/shells'''
   color_code = COLOR_CODES[COLORS[color]]
@@ -51,5 +62,6 @@ def hilite(string, color=0):
 
 
 IS_TTY = sys.stdout.isatty()
+
 
 HR=hilite("-"*64,4).join(["\n","\n"])
