@@ -1,5 +1,4 @@
 tests/footage/output
-batch.sh
 *~
 *.db
 *.orig
