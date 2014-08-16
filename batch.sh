@@ -23,7 +23,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -41,7 +41,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -59,7 +59,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -75,7 +75,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -91,7 +91,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -107,7 +107,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -123,7 +123,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -139,7 +139,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -155,7 +155,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -171,7 +171,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -187,7 +187,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -203,7 +203,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -219,7 +219,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -235,7 +235,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -253,7 +253,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -269,7 +269,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -285,7 +285,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -301,7 +301,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -317,7 +317,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -333,7 +333,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -349,7 +349,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -365,7 +365,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -381,7 +381,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -397,7 +397,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -413,7 +413,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -429,7 +429,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -445,7 +445,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -461,7 +461,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -477,7 +477,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -493,7 +493,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -509,7 +509,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -525,7 +525,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -541,7 +541,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -557,7 +557,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -573,7 +573,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -589,7 +589,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -605,7 +605,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -621,7 +621,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -637,7 +637,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -653,7 +653,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -669,7 +669,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -687,7 +687,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -705,7 +705,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -723,7 +723,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -739,7 +739,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -756,7 +756,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -772,7 +772,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -789,7 +789,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -805,7 +805,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -822,7 +822,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -838,7 +838,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -855,7 +855,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -872,7 +872,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -889,7 +889,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -905,7 +905,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -921,7 +921,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -937,7 +937,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -953,7 +953,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -969,7 +969,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -985,7 +985,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1001,7 +1001,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1017,7 +1017,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1033,7 +1033,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1049,7 +1049,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1065,7 +1065,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1081,7 +1081,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1097,7 +1097,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1113,7 +1113,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1129,7 +1129,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1145,7 +1145,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1164,7 +1164,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1181,7 +1181,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1198,7 +1198,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1215,7 +1215,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1232,7 +1232,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1249,7 +1249,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1265,7 +1265,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1283,7 +1283,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1303,7 +1303,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1320,7 +1320,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1337,7 +1337,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1354,7 +1354,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1371,7 +1371,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1388,7 +1388,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1405,7 +1405,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1422,7 +1422,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1439,7 +1439,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1456,7 +1456,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1473,7 +1473,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1490,7 +1490,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1506,7 +1506,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1523,7 +1523,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1540,7 +1540,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1557,7 +1557,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1574,7 +1574,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1591,7 +1591,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1608,7 +1608,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1625,7 +1625,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1642,7 +1642,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1659,7 +1659,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1676,7 +1676,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1693,7 +1693,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1709,7 +1709,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1728,7 +1728,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1745,7 +1745,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1762,7 +1762,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1778,7 +1778,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1794,7 +1794,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1810,7 +1810,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1827,7 +1827,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1844,7 +1844,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1861,7 +1861,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1877,7 +1877,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1896,7 +1896,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1913,7 +1913,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1930,7 +1930,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1947,7 +1947,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1964,7 +1964,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1981,7 +1981,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -1998,7 +1998,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2014,7 +2014,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2031,7 +2031,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2048,7 +2048,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2065,7 +2065,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2082,7 +2082,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2099,7 +2099,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2116,7 +2116,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2133,7 +2133,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2150,7 +2150,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2166,7 +2166,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2182,7 +2182,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2199,7 +2199,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2218,7 +2218,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2235,7 +2235,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2252,7 +2252,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2269,7 +2269,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2286,7 +2286,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2303,7 +2303,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2320,7 +2320,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2337,7 +2337,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2354,7 +2354,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2371,7 +2371,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2388,7 +2388,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2405,7 +2405,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2421,7 +2421,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2437,7 +2437,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2453,7 +2453,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2469,7 +2469,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2485,7 +2485,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2501,7 +2501,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2518,7 +2518,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2534,7 +2534,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2551,7 +2551,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2568,7 +2568,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2585,7 +2585,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2602,7 +2602,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2619,7 +2619,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2636,7 +2636,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2652,7 +2652,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2669,7 +2669,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2686,7 +2686,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2703,7 +2703,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2720,7 +2720,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2737,7 +2737,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2754,7 +2754,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2771,7 +2771,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2788,7 +2788,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2805,7 +2805,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2822,7 +2822,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2839,7 +2839,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2856,7 +2856,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2873,7 +2873,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2890,7 +2890,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2907,7 +2907,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2924,7 +2924,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2941,7 +2941,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2958,7 +2958,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2975,7 +2975,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -2992,7 +2992,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3009,7 +3009,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3025,7 +3025,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3042,7 +3042,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3059,7 +3059,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3078,7 +3078,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3095,7 +3095,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3112,7 +3112,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3129,7 +3129,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3146,7 +3146,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3163,7 +3163,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3180,7 +3180,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3197,7 +3197,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3213,7 +3213,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3229,7 +3229,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3245,7 +3245,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3261,7 +3261,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3277,7 +3277,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3293,7 +3293,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3309,7 +3309,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3325,7 +3325,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
@@ -3342,7 +3342,7 @@ OUT_DIR=${NET_PRE}/${SEQ_PRE/\/shots/}/${SEQ_REN}/mosh_renders/${ELM_DIR}_moshed
 IN_SEQ=${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/${ELM_NAME}
 ### mkdir -p -v -m 777 ${OUT_DIR}
 # rsync -av ${NET_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/ ${LOC_PRE}/${SEQ_PRE}/${SHOT}/${COL_REN}/${ELM_DIR}/${ELM_SUBDIR}/
-./gomoshion.py --start ${START} --end $(($END-15)) --moshstart %(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
+./gomoshion.py --start ${START} --end $(($END-15)) --moshstart $(($START+10)) --inseq ${IN_SEQ} --moshseq ${IN_SEQ} --outdir ${OUTDIR}
 
 
 
