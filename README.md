@@ -44,22 +44,12 @@ Currently we need to implement the following:
 * optimization
 * more encoding options, codecs, tricks to make it better
 * enhanced portability
+* better code all around instead of the rushed hack this is now
 
 Check out the issues to see what we're focused on.
 
 * [GitHub Issue Tracker](https://github.com/mogga/python-moshion/issues "Issues")
 
-
--get sub process popen back in there
--PyPi
--get the uber mosh working
--keep original frame numbers
--cleaner output and housekeeping
--option to log command as a sidecar file for easier tweaking
--GitHub pages
--logo! 
--refactor and remove pymosh dependency 
-* realtime???
 
 ### Forking through GitHub
 
