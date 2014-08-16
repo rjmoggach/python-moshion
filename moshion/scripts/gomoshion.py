@@ -120,7 +120,7 @@ def main():
       parser.print_help()
       sys.exit(1)
   
-    if IS_TTY: print hilite("{1}moshion v{0}{1}For a list of available options use the -h flag".format(version, HR), 0)
+    if IS_TTY: print hilite("{1}moshion v{0}{1}For a list of available options use the -h flag".format(version, HR), 7)
   
     moshion_options = {
       'start' : options.start,
@@ -139,7 +139,7 @@ def main():
     moshion_options['interval'] = options.interval if options.interval else "8"
     
     if options.avionly and options.writeseq:
-      if IS_TTY: print hilite("ERROR: you can't use avionly and writeseq options together!",1)
+      if IS_TTY: print hilite("ERROR: you can't use avionly and writeseq options together!",10)
       parser.print_help()
       sys.exit(1)
   
@@ -169,8 +169,8 @@ def main():
   if moshion_options['uber']: echo_cmd = " ".join([echo_cmd, "--uber"])
   
 
-  if IS_TTY: print hilite("{0}COMMAND:\n{1}{0}".format(HR, echo_cmd),0)
-  if IS_TTY: print hilite("{0}Moshion Complete!{0}".format(HR),0)
+  if IS_TTY: print hilite("{0}COMMAND:\n{1}{0}".format(HR, echo_cmd),12)
+  if IS_TTY: print hilite("{0}Moshion Complete!{0}".format(HR),3)
   sys.exit(0)
 
 
