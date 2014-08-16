@@ -3,7 +3,7 @@
 > **moshion** is a standalone tool and library used to datamosh
 > two video sequences such that the motion of both clips is retained.
 
-
+## **THIS IS NOT EVEN CLOSE TO PRODUCTION READY. WE ARE BUILDING.**
 
 
 ## Report Issues/Bugs
@@ -16,6 +16,7 @@
 ## Status and License
 
 Copyright (c) 2014 Robert Moggach, Fabio Piparo & contributors.
+
 Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 
 
