@@ -19,8 +19,8 @@ import subprocess
 
 from .pymosh import Index
 from .pymosh.mpeg4 import is_iframe
-from .extractframes.timespec import time_to_frame
-from .extractframes.multirange import multirange
+#from .extractframes.timespec import time_to_frame
+#from .extractframes.multirange import multirange
 from .util import IS_TTY, HR, hilite
 import sequence
 import readline
@@ -31,7 +31,7 @@ import readline
 
 class Moshion():
  
-  def __init__(self, inseq, moshseq, start, end, outdir, moshstart=None, bitrate="5000", keyframe="999", threshold="100000000", interval="15", avionly=False, uber=False):
+  def __init__(self, inseq, moshseq, start, end, outdir, moshstart=None, bitrate="8000", keyframe="999", threshold="100000000", interval="9", avionly=False, uber=False):
     self.uber = uber
     self.inseq = os.path.normpath(inseq.replace('\\', os.sep))
     self.filebase = self.inseq.split('.')[0].split(os.sep)[-1]
