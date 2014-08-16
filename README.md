@@ -1,15 +1,11 @@
 # python-moshion - Datamoshing Motion
 
-> **moshion** is a standalone tool and library used to datamosh
-> two video sequences such that the motion of both clips is retained.
+> **moshion** is a command line interface to [ffmpeg](https://www.ffmpeg.org "ffmpeg.org") 
+> used to [datamosh](http://knowyourmeme.com/memes/datamoshing "Datamoshing")
+> two video sequences to purposely create encoding artifacts.
 
-## **THIS IS NOT EVEN CLOSE TO PRODUCTION READY. WE ARE BUILDING.**
-
-
-## Report Issues/Bugs
-
-* [BitBucket Issue Tracker](https://bitbucket.org/mogga/python-moshion/issues "Issues")
-
+## **This software is in alpha state and no where near production ready. Try it out but
+all the usual caveats apply. Use at your own risk etc.**
 
 
 
@@ -24,12 +20,18 @@ Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.p
 
 ## What It Does
 
-Traditional 'datamoshing' involves removing I-frames from encoded videos to create encoding artifacts
-that appear to make frames melt into one another by inheriting the motion of the incoming footage.
-This is cool but the result is a still frame - we wanted a moving outgoing picture as well as the incoming motion/mosh texture.
-By progressively deleting frames from the outgoing clip along with the I-frame of the incoming clip, we create a series of
-frames that represent the outgoing clip moshed by the motion of the incoming clip. Give it a try.
+Traditional 'datamoshing' involves removing I-frames from encoded videos to create encoding
+artifacts that appear to make frames melt into one another by inheriting the motion of the 
+incoming footage.
 
+This is cool but the result is a moving still frame - we want a moving outgoing picture.
+By progressively deleting frames from the outgoing clip along with the I-frame of the incoming clip, 
+we hope to create a series of frames that represent the outgoing clip moshed by the motion of the 
+incoming clip. Give it a try.
+
+This has all been done before but usually only produces another video and without alot of flexibility
+for what we need. We work in discreet frames so **moshion** takes two image sequences, encodes them
+to create a moshed video and then extracts the new *moshed* frames as a new image sequence.
 
 
 ## Contributing
@@ -40,58 +42,76 @@ Currently we need to implement the following:
 
 * testing
 * optimization
-* encoding options, codecs, tricks to make it better
-* portability
+* more encoding options, codecs, tricks to make it better
+* enhanced portability
+
+Check out the issues to see what we're focused on.
+
+* [GitHub Issue Tracker](https://github.com/mogga/python-moshion/issues "Issues")
+
+
+-get sub process popen back in there
+-PyPi
+-get the uber mosh working
+-keep original frame numbers
+-cleaner output and housekeeping
+-option to log command as a sidecar file for easier tweaking
+-GitHub pages
+-logo! 
+-refactor and remove pymosh dependency 
 * realtime???
 
-
-### Forking through BitBucket
+### Forking through GitHub
 
 First of all, you need to fork from the official repository...
 
-    https://bitbucket.org/mogga/python-moshion/fork
+    > [Fork python-moshion](https://github.com/mogga/python-moshion/fork "Fork")
 
 Now you can change whatever you want, commit, push to your fork and when 
-your contribution is done, follow the pull request link and send us a 
-request explaining what you did and why.
+your contribution is done, follow the pull request link and explain what you did and why.
+
 
 
 ### Running the tests
 
-Ha! Tests. Right.
+Patience. Tests are important and will be implemented.
 
 
 
 ## Documentation
 
-
 ### Installation
 
 We don't have any installer at the moment so you kinda need to know what you're doing.
-Start by cloning the repo:
 
-    git clone https://mogga@bitbucket.org/mogga/python-moshion.git
+1) Start by cloning the repo:
 
+    git clone https://github.com/mogga/python-moshion.git
 
 ### Command Line Tool
 
-This package also provides a command line interface that could be more robust and offer more
-feedback when it doesn't work but for us, it works.
+From within the repo run the included command line script to get a feel for it.
 
-Try it out now using the following from within to repo to use the test footage dir:
+    cd python-moshion
+    ./gomoshion.py -s 1 -e 20 -f 5 --input `pwd`/tests/footage/input/input_ftg.%04d.jpg --mosh `pwd`/tests/footage/input/input_ftg.%04d.jpg -o `pwd`/tests/footage/output
 
-    ./mosh.py --input `pwd`/tests/footage/input/input_ftg.%04d.jpg --mosh `pwd`/tests/footage/moshtex/moshtex_ftg.%04d.jpg -s 1 -e 20 -o `pwd`/tests/footage/output -f 1
+> or use the interactive mode...
 
+    ./gomoshion.py -q
+    
 
 
 ## Acknowledgements
 
-We use a couple great packages to get this working. First and foremost is [pymosh](https://github.com/grampajoe/pymosh "PyMosh")
-so a big thank you for that headstart. The really great [Ruby AviGlitch](http://ucnv.github.io/aviglitch/) is great too although
-this is python so it was more of an inspiration than anything else. Being VFX/CG artists we also rely on [cgkit](http://cgkit.sourceforge.net)
-which we use for it's sequence parsing bits.
+We use a couple great packages to get this working:
 
-For our tests we used a few bits from the internet archive specifically this clip: 
+First and foremost is [pymosh](https://github.com/grampajoe/pymosh "PyMosh") so a big thank you for that headstart.
+
+Being VFX/CG artists we also rely on [cgkit](http://cgkit.sourceforge.net) which we use for it's sequence parsing bits.
+
+The really great [Ruby AviGlitch](http://ucnv.github.io/aviglitch/) is great too although this is python so it was more of an inspiration than anything else. 
+
+For our tests we use a few bits from the [internet archive](https://archive.org/) specifically this clip: 
 
 * [InternetArchive35mmStockFootageSampleReel](https://archive.org/details/InternetArchive35mmStockFootageSampleReel)
 
