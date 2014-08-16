@@ -1,32 +1,55 @@
 import sys
 
-#color_none = '\x1b[0m'
-#color_black = '\x1b[30m'
-#color_red = '\x1b[31m'
-#color_green = '\x1b[32m'
-#color_brown = '\x1b[33m'
-#color_blue = '\x1b[34m'
-#color_magenta = '\x1b[35m'
-#color_cyan = '\x1b[36m'
-#color_light_gray = '\x1b[37m'
-#color_dark_gray = '\x1b[30;1m'
-#color_bright_red = '\x1b[31;1m'
-#color_bright_green = '\x1b[32;1m'
-#color_yellow = '\x1b[33;1m'
-#color_bright_blue = '\x1b[34;1m'
-#color_purple = '\x1b[35;1m'
-#color_bright_cyan = '\x1b[36;1m'
-#color_white = '\x1b[37;1m'
+
+COLOR_CODES={
+  'none':        '0',
+  'black':       '30',
+  'red':         '31',
+  'green':       '32',
+  'brown':       '33',
+  'blue':        '34',
+  'magenta':     '35',
+  'cyan':        '36',
+  'light_gray':  '37',
+  'dark_gray':   '30;1',
+  'bright_red':  '31;1',
+  'bright_green':'32;1',
+  'yellow':      '33;1',
+  'bright_blue': '34;1',
+  'purple':      '35;1',
+  'bright_cyan': '36;1',
+  'white':       '37;1'
+}
+
+COLORS=[
+  'none', # 0
+  'black', # 1
+  'red', # 2
+  'green', # 3
+  'brown', # 4
+  'blue', # 5
+  'magenta', # 6
+  'cyan', # 7
+  'light_gray', # 8
+  'dark_gray', # 9
+  'bright_red', # 10
+  'bright_green', # 11
+  'yellow', # 12
+  'bright_blue', # 13
+  'purple', # 14
+  'bright_cyan', # 15
+  'white' # 16
+]
 
 
-def hilite(string, err):
-  attr = []
-  if err: attr.append('31')
-  else: attr.append('32')
-  attr.append('1')
-  newstr = "\x1b[%sm%s\x1b[0m" % (';'.join(attr), string)
-  return newstr
+
+def hilite(string, color=0):
+  '''hilite a string in TTY terminals/shells'''
+  color_code = COLOR_CODES[COLORS[color]]
+  out_str = "\x1b[{color_code}m{string}\x1b[0m".format(color_code=color_code, string=string)
+  return out_str
 
 
 IS_TTY = sys.stdout.isatty()
-HR="\n--------------------------------------------------------------------\n"
+
+HR=hilite(("-"*64).join(["\n","\n"]),4)
