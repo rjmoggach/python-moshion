@@ -1,0 +1,167 @@
+
+# Moving Mosh Procedure
+
+## INPUT IMAGE SEQUENCE
+
+    src.%04d.jpg 1-5
+
+## INPUT MOSH TEXTURE SEQUENCE
+
+    tex.%04d.jpg 1-10
+
+
+## Concat sequences to create full size AVI
+
+    src.0001.jpg I
+    src.0002.jpg
+    src.0003.jpg
+    src.0004.jpg
+    src.0005.jpg
+    tex.0001.jpg I
+    tex.0002.jpg
+    tex.0003.jpg
+    tex.0004.jpg
+    tex.0005.jpg
+
+
+## Iterative Frame Dropping
+
+1) Delete frames up to I-frame
+
+    src.0001.jpg I
+    src.0002.jpg   X
+    src.0003.jpg   X
+    src.0004.jpg   X
+    src.0005.jpg   X
+    tex.0001.jpg I X 
+    tex.0002.jpg
+    tex.0003.jpg
+    tex.0004.jpg
+    tex.0005.jpg
+    tex.0006.jpg 
+
+2) Export Desired Frame
+
+    src.0001.jpg I
+    ... deleted ...
+    tex.0002.jpg    -> mosh.0001.jpg
+    tex.0003.jpg
+    tex.0004.jpg
+    tex.0005.jpg
+    tex.0006.jpg
+
+## Advance to next frame and repeat
+
+3) Delete frames up to I-frame
+
+    src.0001.jpg I
+    src.0002.jpg
+    src.0003.jpg   X
+    src.0004.jpg   X
+    src.0005.jpg   X
+    tex.0001.jpg I X 
+    tex.0002.jpg
+    tex.0003.jpg
+    tex.0004.jpg
+    tex.0005.jpg
+    tex.0006.jpg 
+
+4) Export Desired Frame
+
+    src.0001.jpg I
+    src.0002.jpg
+    ... deleted ...
+    tex.0002.jpg
+    tex.0003.jpg    -> mosh.0002.jpg
+    tex.0004.jpg
+    tex.0005.jpg
+    tex.0006.jpg 
+
+## Advance to next frame and repeat
+
+5) Delete frames up to I-frame
+
+    src.0001.jpg I
+    src.0002.jpg
+    src.0003.jpg 
+    src.0004.jpg   X
+    src.0005.jpg   X
+    tex.0001.jpg I X 
+    tex.0002.jpg
+    tex.0003.jpg
+    tex.0004.jpg
+    tex.0005.jpg
+    tex.0006.jpg 
+
+6) Export Desired Frame
+
+    src.0001.jpg I
+    src.0002.jpg
+    src.0003.jpg
+    ... deleted ...
+    tex.0002.jpg
+    tex.0003.jpg
+    tex.0004.jpg    -> mosh.0003.jpg
+    tex.0005.jpg
+    tex.0006.jpg 
+
+
+## Advance to next frame and repeat
+
+7) Delete frames up to I-frame
+
+    src.0001.jpg I
+    src.0002.jpg
+    src.0003.jpg 
+    src.0004.jpg 
+    src.0005.jpg   X
+    tex.0001.jpg I X 
+    tex.0002.jpg
+    tex.0003.jpg
+    tex.0004.jpg
+    tex.0005.jpg
+    tex.0006.jpg
+
+8) Export Desired Frame
+
+    src.0001.jpg I
+    src.0002.jpg
+    src.0003.jpg
+    src.0004.jpg 
+    ... deleted ...
+    tex.0002.jpg
+    tex.0003.jpg
+    tex.0004.jpg
+    tex.0005.jpg    -> mosh.0004.jpg
+    tex.0006.jpg
+
+
+## Advance to next frame and repeat
+
+9) Delete frames up to I-frame
+
+    src.0001.jpg I
+    src.0002.jpg
+    src.0003.jpg 
+    src.0004.jpg 
+    src.0005.jpg
+    tex.0001.jpg I X 
+    tex.0002.jpg
+    tex.0003.jpg
+    tex.0004.jpg
+    tex.0005.jpg
+    tex.0006.jpg
+
+10) Export Desired Frame
+
+    src.0001.jpg I
+    src.0002.jpg
+    src.0003.jpg
+    src.0004.jpg 
+    src.0005.jpg 
+    ... deleted ...
+    tex.0002.jpg
+    tex.0003.jpg
+    tex.0004.jpg
+    tex.0005.jpg
+    tex.0006.jpg    -> mosh.0005.jpg

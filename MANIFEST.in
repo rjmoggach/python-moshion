@@ -1,0 +1,6 @@
+include AUTHORS.md
+include LICENSE.md
+include README.md
+recursive-include docs *.md *.html *.jpg *.png *.js *.css *.gif
+recursive-exclude docs/_build *
+recursive-include tests *.py
