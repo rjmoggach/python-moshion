@@ -20,7 +20,7 @@ Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.p
 
 
 
-## What It Does
+## About
 
 Traditional 'datamoshing' involves removing I-frames from encoded videos to create encoding
 artifacts that appear to make frames melt into one another by inheriting the motion of the 
@@ -32,8 +32,9 @@ we hope to create a series of frames that represent the outgoing clip moshed by 
 incoming clip. Give it a try.
 
 This has all been done before but usually only produces another video and without alot of flexibility
-for what we need. We work in discreet frames so **moshion** takes two image sequences, encodes them
-to create a moshed video and then extracts the new *moshed* frames as a new image sequence.
+for what we need. We work with discrete frames so **moshion** accordingly takes two image sequences,
+splices them together, encodes them, deletes the I-frames to create a moshed video and then extracts
+the *moshed* frames as a new image sequence.
 
 
 ## Contributing
@@ -47,6 +48,7 @@ Currently we need to implement the following:
 * more encoding options, codecs, tricks to make it better
 * enhanced portability
 * better code all around instead of the rushed hack this is now
+* other mosh techniques
 
 Check out the issues to see what we're focused on.
 
