@@ -189,6 +189,8 @@ class RiffIndex(RiffIndexList):
         if chunk.header in ('RIFF', 'LIST'):
           print_chunks(chunk.chunks)
     print_chunks(self.chunks)
+    fh.close()
+    self.close()
 
   def get_size(self):
     current = self.file.tell()
@@ -243,3 +245,7 @@ class RiffIndex(RiffIndexList):
           total_length += 1
         chunks.append(RiffIndexChunk(self.file, header, length, position))
     return chunks
+
+  def close(self):
+    self.file.close()
+
