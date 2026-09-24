@@ -10,8 +10,8 @@
 
 """
 
-#v0.0.1b
-VERSION = (0, 0, 1, 'beta', 1)
+#v0.1.0
+VERSION = (0, 1, 0, 'final', 0)
 
 STATUSES = {'alpha': 'a', 'beta': 'b', 'releasecandidate': 'rc' }
 

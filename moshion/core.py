@@ -169,6 +169,8 @@ class Moshion():
           newstream = []
           # append it with a i-frame to make it load fine in video player
           newstream.append(stream[0])
+          # it is also the fallback for an I-frame that comes before any P-frame
+          buf[0] = stream[0]
           # two variables for counting frames and interval
           ix = 0
           jx = 0
@@ -214,6 +216,21 @@ class Moshion():
     print(" ".join(opts))
     return opts
 
+  def get_uber_export_opts(self, position, moshed_avi):
+    # The uber movie for input frame N holds N input frames, then the mosh
+    # frames. Its moshed frame is the mosh frame at index 2N (see docs/notes.txt).
+    opts = ['ffmpeg']
+    opts.extend(['-nostdin'])
+    opts.extend(['-hide_banner'])
+    opts.extend(['-i', moshed_avi])
+    opts.extend(['-vf', 'select=eq(n\\,{0})'.format(2*position)])
+    opts.extend(['-frames:v', '1'])
+    opts.extend(['-start_number', str(position)])
+    opts.extend(['-f', 'image2'])
+    opts.extend([self.outseq])
+    print(" ".join(opts))
+    return opts
+
   def write_sequence(self):
     framerate = 25.0 # irrelevant - just needs to be constant
     seekto_frame = float(len(self.input_frame_list)+1.0)
@@ -234,14 +251,15 @@ class Moshion():
         avi = os.path.join(self.outdir, fname)
         subprocess.call(self.get_export_opts(seekto_str, fcount, avi), close_fds=True)
     else:
-      uber_frame_list = list(self.moshed)
-      while uber_frame_list:
-        fcount = len(uber_frame_list)
-        fname = uber_frame_list.pop(0)
+      # One output frame per uber movie, numbered like the standard sequence
+      for position, frame in enumerate(self.input_frame_list, 1):
+        fname = "{0}_fr{1}_moshed.avi".format(self.filebase, '%04d'%frame)
+        if fname not in self.moshed:
+          continue
         avi = os.path.join(self.outdir, fname)
-        msg = '{0}Exporting {2} frame image sequence from {3}: {1}{0}'.format(HR, self.outseq, fcount, fname)
+        msg = '{0}Exporting frame {2} of image sequence from {3}: {1}{0}'.format(HR, self.outseq, position, fname)
         if IS_TTY: print(hilite(msg,11))
-        subprocess.call(self.get_export_opts(seekto_str, fcount, avi), close_fds=True)
+        subprocess.call(self.get_uber_export_opts(position, avi), close_fds=True)
 
   def do_full_mosh(self):
     self.write_movie()
