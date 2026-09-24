@@ -111,7 +111,7 @@ Start by cloning the repo:
 From within the repo run the included command line script to get a feel for it.
 
     cd python-moshion
-    ./gomoshion.py -s 1 -e 20 -f 5 --input `pwd`/tests/footage/input/input_ftg.%04d.jpg --mosh `pwd`/tests/footage/input/input_ftg.%04d.jpg -o `pwd`/tests/footage/output
+    ./gomoshion.py -s 1 -e 20 -f 5 --inseq `pwd`/tests/footage/input/input_ftg.%04d.jpg --moshseq `pwd`/tests/footage/moshtex/moshtex_ftg.%04d.jpg -o `pwd`/tests/footage/output
 
 or use the interactive mode...
 

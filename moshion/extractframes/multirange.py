@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import itertools
 
 class multirange(object):
@@ -21,7 +21,7 @@ class multirange(object):
 
             last_end = parts[1]
 
-            self.ranges.append(xrange(parts[0], parts[1] + 1))
+            self.ranges.append(range(parts[0], parts[1] + 1))
 
 
     def __iter__(self):

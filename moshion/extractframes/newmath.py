@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+import shutil
 import tempfile
 import contextlib
 import math
@@ -20,5 +21,5 @@ def float_range(a, b, inc):
 def temp_dir(**kwargs):
     tempdir = tempfile.mkdtemp(**kwargs)
     yield tempdir
-    subprocess.check_call(['rm', '-rf', tempdir])
+    shutil.rmtree(tempdir)
 

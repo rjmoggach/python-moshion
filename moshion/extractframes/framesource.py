@@ -1,8 +1,6 @@
-#!/usr/bin/env python
-from __future__ import with_statement
+#!/usr/bin/env python3
 import shutil
 import subprocess
-import extractframes
 import tempfile
 import atexit
 import re

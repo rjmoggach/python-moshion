@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
  python-moshion - Datamoshing Motion
@@ -14,6 +14,12 @@
 
 import os
 import sys
+
+# Let the script run from a source checkout without installing the package
+_repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+if os.path.isfile(os.path.join(_repo_root, 'moshion', '__init__.py')):
+  sys.path.insert(0, _repo_root)
+
 from optparse import OptionParser
 from moshion.core import Moshion
 from moshion import sequence
@@ -23,56 +29,56 @@ from moshion.util import IS_TTY, HR, hilite
 def interactive():
   opts={}
   # INPUT SEQUENCE
-  print hilite("\nEnter the input sequence path:",6)
-  print "\nEg. /my/great/sequence.%04d.jpg\n"
-  inseq_input = raw_input(hilite("input_path >  ",16))
+  print(hilite("\nEnter the input sequence path:",6))
+  print("\nEg. /my/great/sequence.%04d.jpg\n")
+  inseq_input = input(hilite("input_path >  ",16))
   inseqs=sequence.glob(inseq_input.split('.')[0])
   if len(inseqs) > 1:
-    print hilite("\nPick a sequence:",6)
+    print(hilite("\nPick a sequence:",6))
     for k,v in enumerate(inseqs):
-      print "\t {0}) {1}".format(k+1, v)
-    inseq_input = raw_input(hilite("input_seq (1) > ",16)) or 1
+      print("\t {0}) {1}".format(k+1, v))
+    inseq_input = input(hilite("input_seq (1) > ",16)) or 1
     inseq = inseqs[int(inseq_input)-1] 
   else:
     inseq = inseqs[0]
   inseq_path = inseq.__str__().split(' ')[0]
   inseq_start = inseq.__str__().split(' ')[1]
   inseq_end = inseq.__str__().split(' ')[2]
-  print hilite("\nEnter first frame of input sequence:",6)
-  print "\nEg. 953\n"
-  start=raw_input(hilite("first_fr ({0}) >  ".format(inseq_start),16)) or inseq_start
-  print hilite("\nEnter last frame of input sequence:",6)
-  print "\nEg. 1002\n"
-  end=raw_input(hilite("last_fr ({0}) >  ".format(inseq_end),16)) or inseq_end
+  print(hilite("\nEnter first frame of input sequence:",6))
+  print("\nEg. 953\n")
+  start=input(hilite("first_fr ({0}) >  ".format(inseq_start),16)) or inseq_start
+  print(hilite("\nEnter last frame of input sequence:",6))
+  print("\nEg. 1002\n")
+  end=input(hilite("last_fr ({0}) >  ".format(inseq_end),16)) or inseq_end
   # MOSH SEQUENCE
-  print hilite("\nEnter the moshtex sequence path:",6)
-  print "\nEg. /my/great/moshtex.%04d.jpg\n"
-  moshseq_input = raw_input(hilite("moshtex_path >  ", 16))
+  print(hilite("\nEnter the moshtex sequence path:",6))
+  print("\nEg. /my/great/moshtex.%04d.jpg\n")
+  moshseq_input = input(hilite("moshtex_path >  ", 16))
   moshseqs=sequence.glob(moshseq_input.split('.')[0])
   if len(moshseqs) > 1:
-    print "Pick a sequence:"
+    print("Pick a sequence:")
     for k,v in enumerate(moshseqs):
-      print " {0}) {1}".format(k+1, v)
-    moshseq_input = raw_input(hilite("moshtex_path > ",16)) or 1
+      print(" {0}) {1}".format(k+1, v))
+    moshseq_input = input(hilite("moshtex_path > ",16)) or 1
     moshseq = moshseqs[int(moshseq_input)-1] 
   else:
     moshseq = moshseqs[0]
   moshseq_path = moshseq.__str__().split(' ')[0]
   moshseq_start = moshseq.__str__().split(' ')[1]
   moshseq_end = moshseq.__str__().split(' ')[2]
-  print hilite("\nEnter the first frame of moshtex sequence:",6)
-  print "\nEg. 5\n"
-  moshfirst=raw_input(hilite("moshtex_first_fr ({0}) >  ".format(moshseq_start),16)) or moshseq_start
+  print(hilite("\nEnter the first frame of moshtex sequence:",6))
+  print("\nEg. 5\n")
+  moshfirst=input(hilite("moshtex_first_fr ({0}) >  ".format(moshseq_start),16)) or moshseq_start
   # OUTPUT
-  print hilite("\nEnter the output directory path:",6)
-  print "\nEg. /my/great/output\n"
-  outdir = raw_input(hilite("output_path >  ",16))
+  print(hilite("\nEnter the output directory path:",6))
+  print("\nEg. /my/great/output\n")
+  outdir = input(hilite("output_path >  ",16))
 
-  bitrate = raw_input(hilite("Bitrate (8000) > ",16)) or "8000"
-  keyframe = raw_input(hilite("Keyframe (999) > ",16)) or "999"
-  threshold = raw_input(hilite("Threshold (100000000) > ",16)) or "100000000" 
-  interval = raw_input(hilite("Interval (9) > ",16)) or "9" 
-  uber = raw_input(hilite("Uber Moshion? (N) > ",12)) or "N"
+  bitrate = input(hilite("Bitrate (8000) > ",16)) or "8000"
+  keyframe = input(hilite("Keyframe (999) > ",16)) or "999"
+  threshold = input(hilite("Threshold (100000000) > ",16)) or "100000000" 
+  interval = input(hilite("Interval (9) > ",16)) or "9" 
+  uber = input(hilite("Uber Moshion? (N) > ",12)) or "N"
   if uber in ['Y','y','yes','YES','Yes']:
     uber = True
   else:
@@ -126,7 +132,7 @@ def main():
       parser.print_help()
       sys.exit(1)
   
-    if IS_TTY: print hilite("{1}moshion v{0}{1}For a list of available options use the -h flag".format(version, HR), 7)
+    if IS_TTY: print(hilite("{1}moshion v{0}{1}For a list of available options use the -h flag".format(version, HR), 7))
   
     moshion_options = {
       'start' : options.start,
@@ -145,7 +151,7 @@ def main():
     moshion_options['interval'] = options.interval if options.interval else "8"
     
     if options.avionly and options.writeseq:
-      if IS_TTY: print hilite("ERROR: you can't use avionly and writeseq options together!",10)
+      if IS_TTY: print(hilite("ERROR: you can't use avionly and writeseq options together!",10))
       parser.print_help()
       sys.exit(1)
   
@@ -175,8 +181,8 @@ def main():
   if moshion_options['uber']: echo_cmd = " ".join([echo_cmd, "--uber"])
   
 
-  if IS_TTY: print hilite("{0}COMMAND:\n{1}{0}".format(HR, echo_cmd),12)
-  if IS_TTY: print hilite("{0}Moshion Complete!{0}".format(HR),3)
+  if IS_TTY: print(hilite("{0}COMMAND:\n{1}{0}".format(HR, echo_cmd),12))
+  if IS_TTY: print(hilite("{0}Moshion Complete!{0}".format(HR),3))
   sys.exit(0)
 
 

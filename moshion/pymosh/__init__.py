@@ -9,7 +9,7 @@ class Index(object):
     self.index = None
 
     # Just do this for now
-    import avi
+    from . import avi
     self.index = avi.AVIFile(filename)
 
   def __getattr__(self, index):

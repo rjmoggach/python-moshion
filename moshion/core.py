@@ -22,7 +22,6 @@ from .pymosh.mpeg4 import is_iframe
 #from .extractframes.timespec import time_to_frame
 #from .extractframes.multirange import multirange
 from .util import IS_TTY, HR, hilite
-import sequence
 import readline
 
 #    pattern=os.path.abspath(pattern)
@@ -33,10 +32,10 @@ class Moshion():
  
   def __init__(self, inseq, moshseq, start, end, outdir, moshstart=None, bitrate="8000", keyframe="999", threshold="100000000", interval="9", avionly=False, uber=False):
     self.uber = uber
-    self.inseq = os.path.normpath(inseq.replace('\\', os.sep))
+    self.inseq = os.path.abspath(inseq.replace('\\', os.sep))
     self.filebase = self.inseq.split('.')[0].split(os.sep)[-1]
     self.fileext = self.inseq.split('.')[-1]
-    self.moshseq = os.path.normpath(moshseq.replace('\\', os.sep))
+    self.moshseq = os.path.abspath(moshseq.replace('\\', os.sep))
     self.start = int(start)
     self.end = int(end)
     self.avionly=avionly
@@ -49,14 +48,14 @@ class Moshion():
     self.bitrate = bitrate
     self.keyframe = keyframe
     self.threshold = threshold
-    self.interval = interval
+    self.interval = int(interval)
     self.outdir = os.path.normpath(outdir.replace('\\', os.sep))
     self.to_mosh = []
     self.moshed = []
     if not os.path.isdir(self.outdir):
-      os.makedirs(self.outdir, 0755)
+      os.makedirs(self.outdir, 0o755)
     self.outfiledir = os.path.join(self.outdir, self.fileext)
-    if not os.path.isdir(self.outfiledir) and not self.avionly: os.makedirs(self.outfiledir, 0755)
+    if not os.path.isdir(self.outfiledir) and not self.avionly: os.makedirs(self.outfiledir, 0o755)
     outfilename = "{2}{0}{1}_moshed.%04d.{2}".format( os.sep, self.filebase, self.fileext  )
     self.outseq = os.path.join(self.outdir, outfilename)
 #    self.moshed = os.path.join(self.outdir, "mosh_encode.avi")
@@ -86,11 +85,10 @@ class Moshion():
     return files
 
   def write_file_list(self):
-    for ffile, flist in self.file_list_dict.iteritems():
+    for ffile, flist in self.file_list_dict.items():
       file_path = os.path.join(self.outdir, ffile)
-      out_file = file(file_path, 'w')
-      out_file.write('\n'.join(flist))
-      out_file.close()
+      with open(file_path, 'w') as out_file:
+        out_file.write('\n'.join(flist))
 
   def get_encode_opts(self, list_file, avi):
     opts = ['ffmpeg']
@@ -114,8 +112,8 @@ class Moshion():
     self.to_mosh=[]
     if not self.uber:
       msg = '\n\nCreating initial movie\n\n'
-      if IS_TTY: print hilite(msg,7)
-      for key, value in self.file_list_dict.iteritems():
+      if IS_TTY: print(hilite(msg,7))
+      for key, value in self.file_list_dict.items():
         list_file = os.path.join(self.outdir, key)
         avi_filename = "{0}.avi".format(self.filebase)
         self.to_mosh.append(avi_filename)
@@ -124,8 +122,8 @@ class Moshion():
         return subprocess.call(self.get_encode_opts(list_file, avi), close_fds=True)
     else:
       msg = '\n\nCreating initial movies\n\n'
-      if IS_TTY: print hilite(msg,7)
-      print hilite(self.input_frame_list,30)
+      if IS_TTY: print(hilite(msg,7))
+      print(hilite(self.input_frame_list,7))
       file_list_name = 'frame_list.%04d.txt'
       for frame in self.input_frame_list:
         list_file = os.path.join(self.outdir, file_list_name % frame)
@@ -142,7 +140,7 @@ class Moshion():
       for avi_filename in self.to_mosh:
         moshed_avi_filename = avi_filename.replace('.avi','_moshed.avi')
         msg = '{0}Creating moshed movie:\n{1}{0}'.format(HR, moshed_avi_filename)
-        if IS_TTY: print hilite(msg,15)
+        if IS_TTY: print(hilite(msg,15))
         input_avi = os.path.join(self.outdir, avi_filename)
         moshed_avi = os.path.join(self.outdir, moshed_avi_filename) 
         # by johannesgj
@@ -213,7 +211,7 @@ class Moshion():
 #    opts.extend(['-ss', '00:00:%s' % fftime])
     opts.extend(['-f', 'image2'])
     opts.extend([self.outseq])
-    print " ".join(opts)
+    print(" ".join(opts))
     return opts
 
   def write_sequence(self):
@@ -221,11 +219,18 @@ class Moshion():
     seekto_frame = float(len(self.input_frame_list)+1.0)
     seekto_secs = seekto_frame/framerate
     seekto_str = "%05.2f" % seekto_secs
+    if not self.moshed:
+      # --writeseq: pick up the moshed movies left by an earlier run
+      if not self.uber:
+        names = ["{0}_moshed.avi".format(self.filebase)]
+      else:
+        names = ["{0}_fr{1}_moshed.avi".format(self.filebase, '%04d'%frame) for frame in self.input_frame_list]
+      self.moshed = [n for n in names if os.path.isfile(os.path.join(self.outdir, n))]
     if not self.uber:
       fcount = len(self.input_frame_list)
       for key, fname in enumerate(self.moshed):
         msg = '{0}Exporting {2} frame image sequence from {3}: {1}{0}'.format(HR, self.outseq, fcount, fname)
-        if IS_TTY: print hilite(msg,11)
+        if IS_TTY: print(hilite(msg,11))
         avi = os.path.join(self.outdir, fname)
         subprocess.call(self.get_export_opts(seekto_str, fcount, avi), close_fds=True)
     else:
@@ -235,7 +240,7 @@ class Moshion():
         fname = uber_frame_list.pop(0)
         avi = os.path.join(self.outdir, fname)
         msg = '{0}Exporting {2} frame image sequence from {3}: {1}{0}'.format(HR, self.outseq, fcount, fname)
-        if IS_TTY: print hilite(msg,11)
+        if IS_TTY: print(hilite(msg,11))
         subprocess.call(self.get_export_opts(seekto_str, fcount, avi), close_fds=True)
 
   def do_full_mosh(self):

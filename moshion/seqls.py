@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # ***** BEGIN LICENSE BLOCK *****
 # Version: MPL 1.1/GPL 2.0/LGPL 2.1
 #
@@ -38,7 +38,7 @@ import optparse
 import sys, os, glob
 import os.path
 import time
-import sequence
+from moshion import sequence
 
 class SequenceInfo:
   """Obtains and stores info about a file sequence.
@@ -56,7 +56,7 @@ class SequenceInfo:
       try:
         fileInfo = os.stat(str(fileName))
       except OSError:
-        print >>sys.stderr, sys.exc_info()[1]
+        print(sys.exc_info()[1], file=sys.stderr)
         continue
       size += fileInfo.st_size
       if minMTime is None or fileInfo.st_mtime<minMTime:
@@ -75,10 +75,10 @@ class SequenceInfo:
     if size<1024:
       return "%dB"%size
     elif size<1024*1024:
-      return "%dK"%(size/1024)
+      return "%dK"%(size//1024)
     else:
     #elif size<1024*1024*1024:
-      return "%dM"%(size/(1024*1024))
+      return "%dM"%(size//(1024*1024))
 #    else:
 #      return "%dG"%(size/(1024*1024*1024))
 
@@ -166,5 +166,6 @@ def main():
   
 ##########################################################################
   
-main()
+if __name__ == "__main__":
+  main()
 

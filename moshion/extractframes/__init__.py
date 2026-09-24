@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import shutil
-from framesource import VideoFrameSource
+from .framesource import VideoFrameSource
 import tempfile
 import decimal
-import rateconverter 
+from . import rateconverter
 import os
 
 """
@@ -32,9 +32,9 @@ def extract(infile, outfile, ratio=None, in_frames=None, quiet=True,
     frame_source = VideoFrameSource(infile, quiet=quiet)
 
     if not in_frames:
-        # xrange is half-open interval.  For closed interval, would be
+        # range is half-open interval.  For closed interval, would be
         # [0, get_num_frames() - 1]
-        in_frames = xrange(0, frame_source.get_num_frames())
+        in_frames = range(0, frame_source.get_num_frames())
 
     if in_frames[0] < 0 or in_frames[-1] > frame_source.get_num_frames() - 1:
         raise ValueError("Requested bounds %s don't fit in %d-frame video file"
@@ -55,7 +55,7 @@ def extract(infile, outfile, ratio=None, in_frames=None, quiet=True,
             test = pbar([1])
             iterator = pbar(list(iterator))
         except (ImportError, TypeError):
-            print "(For a progress bar, install python-progressbar v. 2.3)"
+            print("(For a progress bar, install python-progressbar v. 2.3)")
     for src, dst in iterator:
         source = frame_source.get_frame_file(src)
         dest = outfile % dst

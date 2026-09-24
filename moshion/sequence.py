@@ -174,7 +174,7 @@ class SeqString:
         if other is None:
             return 1
         if not isinstance(other, SeqString):
-            if not isinstance(other, basestring):
+            if not isinstance(other, str):
                 return 1
             # If other is a regular string, then turn self into a string as well
             # and use normal string comparison
@@ -906,7 +906,7 @@ class Range:
       >>> rng = Range("1-2,5")
       >>> len(rng)
       3
-      >>> for i in rng: print i
+      >>> for i in rng: print(i)
       ... 
       1
       2
@@ -1436,7 +1436,7 @@ class SeqTemplate:
                 pattern = m.group(3)
                 idx = m.group(4)
                 e = m.end(4)
-                if e is -1:
+                if e == -1:
                     e = m.end(3)
                 else:
                     e += 1
@@ -1509,21 +1509,21 @@ class OutputNameGenerator:
       >>> seqs = buildSequences(["spam1_1.tif", "spam1_2.tif", "spam1_5.tif"])
       >>> 
       >>> for src,dst in OutputNameGenerator(seqs, "foo"):
-      ...   print src,"->",dst
+      ...   print(src, "->", dst)
       ... 
       spam1_1.tif -> foo0001.tif
       spam1_2.tif -> foo0002.tif
       spam1_5.tif -> foo0005.tif
       >>> 
       >>> for src,dst in OutputNameGenerator(seqs, "foo@_#.tif", dstRange=Range("10-")):
-      ...   print src,"->",dst
+      ...   print(src, "->", dst)
       ... 
       spam1_1.tif -> foo1_0010.tif
       spam1_2.tif -> foo1_0011.tif
       spam1_5.tif -> foo1_0012.tif
       >>> 
       >>> for src,dst in OutputNameGenerator(seqs, "foo_#[2]_{@[1]+2}.tif"):
-      ...   print src,"->",dst
+      ...   print(src, "->", dst)
       ... 
       spam1_1.tif -> foo_0001_3.tif
       spam1_2.tif -> foo_0002_3.tif
@@ -1531,7 +1531,7 @@ class OutputNameGenerator:
       >>> 
       >>> # The following assumes that "targetdir" is an existing directory
       >>> for src,dst in OutputNameGenerator(seqs, "targetdir"):
-      ...   print src,"->",dst
+      ...   print(src, "->", dst)
       ... 
       spam1_1.tif -> targetdir/spam1_1.tif
       spam1_2.tif -> targetdir/spam1_2.tif
@@ -1596,7 +1596,7 @@ class OutputNameGenerator:
         for seq in srcSequences:
             if not isinstance(seq, Sequence):
                 raise TypeError("The source sequences must be Sequence objects")
-        if not isinstance(dstName, basestring):
+        if not isinstance(dstName, str):
             raise TypeError("The output sequence pattern must be a string")
         for sr in srcRanges:
             if sr is not None and not isinstance(sr, Range):
@@ -1648,7 +1648,7 @@ class OutputNameGenerator:
         for srcSeq in srcSequences:
             for rng in srcSeq.ranges():
                 if len(rng)>0:
-                    start = iter(rng).next()
+                    start = next(iter(rng))
                     if start<minNumber:
                         minNumber = start
         
@@ -1729,12 +1729,12 @@ class OutputNameGenerator:
             # should just be kept.
             if srcIter is not None:
                 try:
-                    srcName = srcIter.next()
+                    srcName = next(srcIter)
                 except StopIteration:
                     if enforceDstRange:
                         if repeatSrc:
                             srcIter = iter(srcSequence)
-                            srcName = srcIter.next()
+                            srcName = next(srcIter)
                         else:
                             srcIter = None
                     else:
@@ -1763,7 +1763,7 @@ class OutputNameGenerator:
                 # the number from the input file is used
                 if dstRangeIter is not None and len(nums)>0:
                     try:
-                        nums[seqNumIdx] = dstRangeIter.next()
+                        nums[seqNumIdx] = next(dstRangeIter)
                     except StopIteration:
                         break
                 # Create the file names
