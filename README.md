@@ -52,14 +52,14 @@ Currently we need to implement the following:
 
 Check out the issues to see what we're focused on.
 
-* [GitHub Issue Tracker](https://github.com/mogga/python-moshion/issues "Issues")
+* [GitHub Issue Tracker](https://github.com/rjmoggach/python-moshion/issues "Issues")
 
 
 ### Forking through GitHub
 
 First of all, you need to fork from the official repository...
 
-[Fork python-moshion](https://github.com/mogga/python-moshion/fork "Fork")
+[Fork python-moshion](https://github.com/rjmoggach/python-moshion/fork "Fork")
 
 Now you can change whatever you want, commit, push to your fork and when 
 your contribution is done, follow the pull request link and explain what you did and why.
@@ -104,7 +104,7 @@ This is easier...
 
 Start by cloning the repo:
 
-    git clone https://github.com/mogga/python-moshion.git
+    git clone https://github.com/rjmoggach/python-moshion.git
 
 #### Command Line Tool
 
